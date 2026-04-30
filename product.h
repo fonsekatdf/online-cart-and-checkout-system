@@ -13,10 +13,21 @@ private:
 
 public:
     // constructors
-    Product() : id(""), name(""), price(0.0), stock(0) {}
+    Product()
+    {
+        id = "";
+        name = "";
+        price = 0.0;
+        stock = 0;
+    }
 
-    Product(const string &id, const string &name, double price, int stock)
-        : id(id), name(name), price(price), stock(stock) {}
+    Product(string id, string name, double price, int stock)
+    {
+        this->id = id;
+        this->name = name;
+        this->price = price;
+        this->stock = stock;
+    }
 
     // getters
     string getID() const
