@@ -92,17 +92,6 @@ public:
         return count == 0;
     }
 
-    void clear()
-    {
-        while (head != nullptr)
-        {
-            CartItem *temp = head;
-            head = head->getNext();
-            delete temp;
-        }
-        count = 0;
-    }
-
     // destructor
     ~ShoppingCart()
     {
@@ -289,12 +278,6 @@ public:
             current = current->getNext();
         }
         return items;
-    }
-
-    // utility
-    bool isEmpty() const
-    {
-        return head == nullptr;
     }
 
     int getCount() const

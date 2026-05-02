@@ -1,3 +1,5 @@
+#ifndef PRODUCT_CATALOG_H
+#define PRODUCT_CATALOG_H
 #include <iostream>
 #include <unordered_map>
 #include <iomanip>
@@ -72,3 +74,5 @@ public:
         return catalog.size();
     }
 };
+
+#endif

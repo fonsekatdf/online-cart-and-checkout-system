@@ -1,3 +1,6 @@
+#ifndef PRODUCT_H
+#define PRODUCT_H
+
 #include <iostream>
 #include <string>
 
@@ -94,3 +97,5 @@ public:
         cout << "Stock : " << stock << endl;
     }
 };
+
+#endif

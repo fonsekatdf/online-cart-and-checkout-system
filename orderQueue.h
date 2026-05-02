@@ -1,3 +1,6 @@
+#ifndef ORDER_QUEUE_H
+#define ORDER_QUEUE_H
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -153,3 +156,5 @@ public:
         return (int)q.size();
     }
 };
+
+#endif

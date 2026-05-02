@@ -1,3 +1,6 @@
+#ifndef PAYMENT_PROCESSOR_H
+#define PAYMENT_PROCESSOR_H
+
 #include <iostream>
 #include <stack>
 #include <string>
@@ -122,3 +125,5 @@ public:
         }
     }
 };
+
+#endif

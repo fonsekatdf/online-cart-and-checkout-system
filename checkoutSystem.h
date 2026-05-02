@@ -1,3 +1,6 @@
+#ifndef CHECKOUT_SYSTEM_H
+#define CHECKOUT_SYSTEM_H
+
 #include <iostream>
 #include <string>
 
@@ -146,3 +149,5 @@ public:
         return currentUser;
     }
 };
+
+#endif
