@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include <iomanip>
 
 using namespace std;
 
@@ -91,10 +92,11 @@ public:
     // display product information
     void display() const
     {
-        cout << "Product ID : " << id << endl;
-        cout << "Product Name : " << name << endl;
-        cout << "Price : Rs. " << price << endl;
-        cout << "Stock : " << stock << endl;
+        cout << left;
+        cout << setw(8) << id;
+        cout << setw(20) << name;
+        cout << "Rs. " << fixed << setprecision(2) << setw(10) << price;
+        cout << stock << endl;
     }
 };
 

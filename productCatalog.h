@@ -50,23 +50,22 @@ public:
     // display full catalog
     void display()
     {
-        cout << "\n========== PRODUCT CATALOG ==========\n";
+        cout << "\n========== PRODUCT CATALOG ==================\n";
 
         cout << left;
         cout << setw(8) << "ID";
         cout << setw(20) << "Name";
         cout << setw(10) << "Price";
-        cout << "Stock\n";
+        cout << "Stock" << endl;
 
-        cout << "-------------------------------------\n";
+        cout << "-----------------------------------------------\n";
 
         for (auto entry : catalog)
         {
-            Product p = entry.second;
-            p.display();
+            entry.second.display();
         }
 
-        cout << "=====================================\n";
+        cout << "===============================================\n";
     }
 
     int size() const
