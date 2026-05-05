@@ -17,5 +17,12 @@ int main()
 
     shop.showCatalog();
 
+    // add items to cart (inserts nodes into the Linked List)
+    shop.addToCart("P001", 1);
+    shop.addToCart("P002", 2);
+    shop.addToCart("P003", 1);
+
+    shop.showCart();
+
     return 0;
 }

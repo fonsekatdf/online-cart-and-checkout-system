@@ -137,7 +137,7 @@ public:
         head = newItem;
         count++;
 
-        cout << "[Cart] Added '" << product->getName() << "' x" << qty << ".\\n";
+        cout << "[Cart] Added '" << product->getName() << "' x" << qty << ".\n";
     }
 
     // remove item from cart
