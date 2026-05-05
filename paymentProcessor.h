@@ -25,7 +25,7 @@ public:
     void addStep(string step)
     {
         steps.push(step);
-        cout << " [Payment] ✔️ " << step << "\n";
+        cout << " [Payment] " << step << "\n";
     }
 
     // pop the most recent step

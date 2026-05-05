@@ -212,13 +212,13 @@ public:
             return;
         }
 
-        cout << "\n========== YOUR SHOPPING CART ==========\n";
+        cout << "\n============== YOUR SHOPPING CART =================\n";
         cout << left;
         cout << setw(20) << "Product";
         cout << setw(8) << "Qty";
         cout << setw(12) << "Unit Price";
         cout << "Subtotal\n";
-        cout << "---------------------------------------\n";
+        cout << "-----------------------------------------------------\n";
 
         CartItem *current = head;
         double total = 0;
@@ -241,9 +241,9 @@ public:
             current = current->getNext();
         }
 
-        cout << "---------------------------------------\n";
+        cout << "--------------------------------------------------\n";
         cout << right << setw(43) << "TOTAL : Rs. " << fixed << setprecision(2) << total << "\n";
-        cout << "=======================================\n";
+        cout << "===================================================\n";
     }
 
     // calculate total price of items in cart

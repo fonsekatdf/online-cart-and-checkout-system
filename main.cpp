@@ -24,5 +24,19 @@ int main()
 
     shop.showCart();
 
-    return 0;
+    // remove an item from cart(unlinks a node from the Linked List)
+    shop.removeFromCart("P002");
+
+    // show updated cart
+    shop.showCart();
+
+    // checkout() internally:
+    // 1. verifies cart is not empty
+    // 2. Pushes payment steps onto the stack
+    // 3. Creates an order and enqueues it into the Queue
+    // 4. Clears the cart
+
+    shop.checkout();
+
+        return 0;
 }
