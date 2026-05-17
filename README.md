@@ -166,7 +166,7 @@ count--;
 ## 👤 Author
 
 **Tharindu**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: @fonsekatdf
 
 ---
 
