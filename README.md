@@ -166,10 +166,4 @@ count--;
 ## 👤 Author
 
 **Tharindu**
-- GitHub: @fonsekatdf
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+- GitHub: https://github.com/fonsekatdf
